@@ -1,0 +1,10 @@
+.App{
+  position: relative;
+  z-index: 0;
+  height: 100vh;
+  
+}
+.new{
+  background: url('../src/Components/assets/home/bitmap.svg') ;
+  
+}

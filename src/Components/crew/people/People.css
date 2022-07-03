@@ -1,0 +1,73 @@
+.person{
+  margin-top: 200px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  justify-content: space-between;
+}
+.firstpersonsection{
+  color: white;
+}
+.firstpersonsection .firsth1{
+  font-family: 'Comfortaa', cursive;
+  transform: translateY(-70px);
+  font-size: 25px;
+}
+.firstpersonsection span{
+  color: rgb(148, 144, 144);
+}
+.firstpersonsection h2{
+  font-family: 'Bellefair', serif;
+  font-weight: 100;
+  color: rgb(148, 144, 144);
+  margin-bottom: 30px;
+
+}
+.firstpersonsection h1{
+  font-family: 'Bellefair', serif;
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.firstpersonsection p{
+  font-family: 'Barlow', sans-serif ;
+  color: #D0D6F9;
+  font-size: 16px;
+  line-height: 2rem;
+  margin-bottom: 40px;
+}
+#person1{
+  width: 400px;
+  height: 500px;
+  transform: translateY(8px);
+  background: url('../../assets/crew/douglas.svg') no-repeat center center;
+  background-size: 400px;
+  
+}
+#person2{
+ 
+  width: 400px;
+  height: 500px;
+  transform: translateY(8px);
+  background: url('../../assets/crew/mark.svg') no-repeat center center;
+  background-size: 350px;
+}
+#person3{
+ 
+  width: 400px;
+  height: 500px;
+  transform: translateY(8px);
+  background: url('../../assets/crew/victor.svg') no-repeat center center;
+  background-size: 420px;
+}
+#person4{
+
+  padding: 0;
+  width: 400px;
+  height: 420px;
+  transform: translateY(87px);
+  background: url('../../assets/crew/ansari.svg') no-repeat center center;
+  background-size: 430px;
+}

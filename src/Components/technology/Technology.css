@@ -1,0 +1,71 @@
+.tech{
+  width: 100vw;
+  height: 110vh;
+  background:url('../assets/technology/tech.svg') no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  
+ 
+}
+.tech h1{
+  font-family: 'Comfortaa', cursive;
+  color: white;
+  font-size: 25px;
+  
+}
+.generalh1{
+  width: 1000px;
+   transform: translateY(150px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.tech span{
+  color: rgb(148, 144, 144);
+}
+.techs{
+  margin-top: 300px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+}
+.techs a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 68px;
+  height: 68px;
+  width: 70px;
+  text-decoration: none;
+  color: white;
+  font-size: 35px;  
+  font-family: 'Bellefair', serif;
+}
+.techs button{
+  display: grid;
+  margin-bottom: 30px;
+  border-radius: 50px;
+  height: 70px;
+  border: none;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  width: 70px;
+}
+.techs a.active{
+  background: white;
+  width: 68px;
+  height: 68px;
+  background-size: cover;
+  color: black;
+}
+.techs button.active{
+  color: black;
+}
+.techlinks{
+  margin-right: 50px;
+}

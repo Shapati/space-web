@@ -1,0 +1,37 @@
+.crew{
+  width: 100vw;
+  height: 100vh;
+  background:url('../assets/crew/crewback.svg') no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+ 
+}
+.crew a{
+  margin-right: 15px;
+  border:1px solid white;
+  border-radius: 50px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  
+}
+.crew a:hover{
+  background: rgb(156, 154, 154);
+  transition: 0.3s ease-in;
+}
+.crew a.active{
+  background: white;
+}
+.crew button{
+  width: 18px;
+  height: 5px;
+
+  background: none;
+  border: none;
+}
+.crewlinks{
+  width: 1000px;
+  transform: translateY(90vh);
+  margin-left: auto ;
+  margin-right: auto;
+}
